@@ -6,7 +6,6 @@ import java.util.Random;
 public class Diziler {
 
 	public static void main(String[] args) {
-		
 
 		System.out.println("*****************************************************************");
 		System.out.println("* Girilen HARF ve ADET sayýsýna göre rastgele kelimeler üretmek *");
