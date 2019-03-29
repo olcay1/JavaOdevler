@@ -23,6 +23,13 @@ public class Program {
 		OgrenciEkle ogrEkle = new OgrenciEkle();
 		ogrEkle.ekle();
 
+		for (int i = 0; i < ogrEkle.ogrenciArray.size(); i++) {
+
+			System.out.println("No:" + ogrEkle.ogrenciArray.get(i).ogrenciNo + "  - Ogrenci ad: "
+					+ ogrEkle.ogrenciArray.get(i).ogrenciAd);
+
+		}
+
 	}
 
 }

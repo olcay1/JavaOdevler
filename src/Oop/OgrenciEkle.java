@@ -5,10 +5,11 @@ import java.util.Random;
 
 public class OgrenciEkle {
 
+	ArrayList<Ogrenci> ogrenciArray = new ArrayList<Ogrenci>();
+
 	void ekle() {
 
 		Random rnd = new Random();
-		ArrayList<Ogrenci> ogrenciArray = new ArrayList<Ogrenci>();
 
 		for (int i = 0; i < 10; i++) {
 			KelimeUretec kelimeUretec = new KelimeUretec(10);
@@ -16,10 +17,5 @@ public class OgrenciEkle {
 
 		}
 
-		for (int i = 0; i < ogrenciArray.size(); i++) {
-
-			System.out.println("No:" + ogrenciArray.get(i).ogrenciNo + "  - Ogrenci ad: " + ogrenciArray.get(i).ogrenciAd);
-
-		}
 	}
 }
