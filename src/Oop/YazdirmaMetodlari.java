@@ -9,13 +9,13 @@ public class YazdirmaMetodlari {
 	}
 
 	static void programBasligiYazdir(String parametre) {
-		System.out.println("***************************************\r\n" + "************" + parametre
-				+ "************\r\n" + "****************************************");
+		System.out.println("***************************************\r\n" + "****************" + parametre
+				+ "*******************\r\n" + "***************************************");
 
 	}
 
 	static void ayracYazdir() {
-		System.out.println("*************************************");
+		System.out.println("\r\n***************************************");
 
 	}
 
