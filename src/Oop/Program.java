@@ -11,7 +11,7 @@ public class Program {
 		System.out.println();
 		YazdirmaMetodlari.programBasligiYazdir(parametre);
 		YazdirmaMetodlari.ayracYazdir();
-		YazdirmaMetodlari.islemSonucuYazdir("Hafta=", 4);
+		YazdirmaMetodlari.islemSonucuYazdir("Hafta", 4);
 		System.out.println();
 		System.out.print("harf sayýsý: ");
 		Scanner scan = new Scanner(System.in);
