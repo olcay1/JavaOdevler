@@ -19,9 +19,11 @@ public class Program {
 		KelimeUretec kelimeUretec = new KelimeUretec(harfSayisi);
 
 		System.out.println(kelimeUretec.kelime);
+		
 		System.out.println("\n\röðrenci Listesi");
 		OgrenciEkle ogrEkle = new OgrenciEkle();
 		ogrEkle.ekle();
+		
 
 		for (int i = 0; i < ogrEkle.ogrenciArray.size(); i++) {
 
