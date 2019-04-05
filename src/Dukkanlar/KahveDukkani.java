@@ -9,6 +9,7 @@ public class KahveDukkani extends Dukkan {
 
 	void degerlendirme() {
 		if (Puan>=3) {
+			System.out.println("**** "+getDukkanAd()+" ****");
 			System.out.println(kahveIsim+ " çok güzel");
 			System.out.println(ozelUrunu+ " denemelisiniz");
 			

@@ -10,7 +10,7 @@ public class Marketler extends Dukkan {
 	
 	void alisverisYap() {
 		toplamTutar=adet*fiyat;
-		
+		System.out.println("**** "+getDukkanAd()+" ****");
 		System.out.println("aldýðýnýz "+ urunAd +"için "+ toplamTutar+ "ödeme tutarýnýzdýr." );
 		
 	}
